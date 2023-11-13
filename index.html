@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+</head>
+<body>
+   
+<h1>Temperature</h1>
+
+  <label>Degrees Celsius</label>
+ 
+<p>Celcius: <span id="outputCelcius"></span></p>
+
+<input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+<script src="/index.js"></script>
+</body>
+</html>
